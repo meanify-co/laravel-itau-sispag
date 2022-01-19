@@ -1,0 +1,27 @@
+{
+    "name": "2mindapps/laravel-sispag",
+    "description": "Biblioteca Laravel para SISPAG",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Barcelos",
+            "email": "daniel.barcelos@2mind.com.br"
+        }
+    ],
+    "keywords": [
+        "2mindapps",
+        "laravel-sispag"
+    ],
+    "homepage": "https://github.com/2mindapps/laravel-sispag",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MindApps\\LaravelSispag\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MindApps\\LaravelSispag\\Tests\\": "tests"
+        }
+    }
+}
