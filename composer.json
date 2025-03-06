@@ -1,27 +1,32 @@
 {
-    "name": "2mindapps/laravel-sispag",
-    "description": "Biblioteca Laravel para SISPAG",
+    "name": "meanify-co/laravel-itau-sispag",
+    "description": "Biblioteca Laravel para SISPAG do Itaú",
     "type": "library",
     "authors": [
         {
             "name": "Daniel Barcelos",
-            "email": "daniel.barcelos@2mind.com.br"
+            "email": "daniel@meanify.co"
         }
     ],
     "keywords": [
-        "2mindapps",
-        "laravel-sispag"
+        "Meanify",
+        "laravel-itau-sispag",
+        "Laravel",
+        "Itaú",
+        "Itau",
+        "SISPAG",
+        "Remessa"
     ],
-    "homepage": "https://github.com/2mindapps/laravel-sispag",
+    "homepage": "https://github.com/meanify-co/laravel-itau-sispag",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MindApps\\LaravelSispag\\": "src"
+            "Meanify\\LaravelItauSispag\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MindApps\\LaravelSispag\\Tests\\": "tests"
+            "Meanify\\LaravelItauSispag\\Tests\\": "tests"
         }
     }
 }
